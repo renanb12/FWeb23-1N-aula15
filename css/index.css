@@ -1,0 +1,269 @@
+.carrinho {
+    background: url(../img/icons8-carrinho-de-compras-50.png ) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: contain;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+body {
+    color: #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.img_logo {
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    position: relative;
+    height: 20%;
+    border: 2px solid;
+}
+
+.buscar,
+.menu-conteudo {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+
+.buscar h2,
+.buscar form,
+.menu-conteudo h2 {
+    margin: 10px;
+}
+
+.menu-conteudo li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.buscar input {
+    vertical-align: middle;
+}
+
+.buscar input[type=search] {
+    width: 170px;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-conteudo {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-conteudo a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-conteudo {
+    clear: left;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 35%;
+}
+
+.aula1 {
+    float: left;
+    background-color: #f5dcdc;
+}
+
+.aula2 {
+    float: right;
+    background-color: #dcdcf5;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom:
+        10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 6px;
+    width: 100%;
+
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer ul.social {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul.social li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul.social li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#foto_destaque {
+    width: 500px;
+    height: 250px;
+}
+
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+
+.menu-conteudo li ul {
+    display: none;
+}
+
+.menu-conteudo li:hover ul {
+    display: block;
+}
+
+.menu-conteudo ul li {
+    background-color: #dcdcdc;
+}
+
+.menu-conteudo li li a:before {
+    content: '- ';
+}
+
+:not(p)+p:first-line {
+    font-variant: small-caps;
+}
+
+.painel {
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999;
+    
+}
+
+.painel h2 {
+    text-shadow: 3px 3px 2px #FFF;
+}
+
+.busca {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.painel h2 {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.aula1 {
+    background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.aula2 {
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
+
+.painel li:hover {
+    box-shadow: 0 0 5px #333;
+    transition: box-shadow 0.7s;
+}
+
+.painel li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s;
+}
+
+.painel li:hover {
+    transform: scale(1.2);
+}
+
+.painel li:hover {
+    transform: scale(1.2) rotate(-5deg);
+}

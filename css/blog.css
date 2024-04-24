@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+a:hover {
+    opacity: 10%;
+}
+
+nav {
+    cursor:default;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 400px;
+    font-size: 30px;
+    color: white;
+}
+
+nav a {
+    color: white ;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin-right: 500px;
+}

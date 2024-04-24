@@ -1,0 +1,42 @@
+header {
+    font-family: 'ARIAL';
+    text-align: center;
+    padding: 150px;
+}
+
+body {
+    background-color: gray;
+}
+
+nav {
+    font-family: 'ARIAL';
+    background-image: url(../img/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+    text-align: center;
+    font-size: 25px;
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+}
+
+footer {
+    text-align: center;
+}
+
+figure {
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    /* padding: 1px; */
+}
+
+p:first-letter {
+    font-weight: bold;
+}
+
+h1 + p {
+    text-indent: 0;
+}
+
+p:first-line {
+    font-variant: small-caps;
+}
