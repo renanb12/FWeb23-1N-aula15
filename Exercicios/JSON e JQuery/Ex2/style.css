@@ -1,0 +1,9 @@
+.owl-carousel {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.owl-carousel img {
+    width: 100%;
+    height: 100%;
+}

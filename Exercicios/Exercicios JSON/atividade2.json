@@ -1,0 +1,32 @@
+{
+    "Matematica": [
+        "João",
+        "Maria",
+        "Pedro"
+    ],
+
+    "Português": [
+        "Gustavo",
+        "Felipe",
+        "Leonardo"
+    ],
+
+    "Quimica": [
+        "Róger",
+        "Matheus",
+        "Guilherme"
+    ],
+
+    "Biologia": [
+        "Luiz",
+        "Felype",
+        "Marcelo"
+    ],
+
+    "Fisica": [
+        "Renan",
+        "Vitor",
+        "Daniel"
+    ]
+
+}
