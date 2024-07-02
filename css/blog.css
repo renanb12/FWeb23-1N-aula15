@@ -1,32 +1,72 @@
+/* Estilos gerais para o corpo da página */
 body {
     background-color: rgb(54, 54, 54);
-}
-
-a:hover {
-    opacity: 10%;
-}
-
-nav {
-    cursor:default;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 400px;
-    font-size: 30px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
     color: white;
 }
 
-nav a {
-    color: white ;
-    text-decoration: none;
+/* Alterar opacidade dos links ao passar o mouse */
+a:hover {
+    opacity: 0.1;
 }
 
-nav li {
+/* Container para centralizar o conteúdo */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para o título principal */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/* Remover estilos padrão da lista e configurar para navegação */
+nav ul {
     list-style: none;
-    margin-right: 20px;
-    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 
-nav h1 {
-    margin-right: 500px;
+/* Estilos para cada item da lista */
+nav ul li {
+    background-color: #666;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+/* Efeito de escala ao passar o mouse nos itens da lista */
+nav ul li:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para os links dentro dos itens da lista */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Media query para telas maiores */
+@media (min-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        flex: 1 1 calc(50% - 20px);
+        margin: 10px;
+        text-align: left;
+    }
 }

@@ -1,3 +1,4 @@
+/* Estilos gerais para o corpo da página */
 body {
     background-color: rgb(54, 54, 54);
     font-family: Arial, sans-serif;
@@ -6,12 +7,14 @@ body {
     color: white;
 }
 
+/* Estilos para o título principal */
 h1 {
     text-align: center;
     margin-bottom: 30px;
     color: white;
 }
 
+/* Estilos para a lista */
 ul {
     list-style: none;
     padding: 0;
@@ -19,6 +22,7 @@ ul {
     margin: 0 auto;
 }
 
+/* Estilos para cada item da lista */
 ul li {
     background-color: #666;
     margin: 10px 0;
@@ -28,16 +32,19 @@ ul li {
     transition: transform 0.3s;
 }
 
+/* Efeito de escala ao passar o mouse nos itens da lista */
 ul li:hover {
     transform: scale(1.05);
 }
 
+/* Estilos para os links dentro dos itens da lista */
 ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
+/* Alterar a opacidade dos links ao passar o mouse */
 ul li a:hover {
     opacity: 0.1;
 }

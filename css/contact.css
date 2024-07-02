@@ -1,13 +1,16 @@
+/* Estilos para o cabeçalho */
 header {
     font-family: 'ARIAL';
     text-align: center;
     padding: 150px;
 }
 
+/* Estilos gerais para o corpo da página */
 body {
     background-color: gray;
 }
 
+/* Estilos para a seção de navegação */
 nav {
     font-family: 'ARIAL';
     background-image: url(../img/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
@@ -15,28 +18,34 @@ nav {
     font-size: 25px;
 }
 
+/* Estilos para o h2 dentro do cabeçalho */
 h2 {
     border-bottom: 2px solid #333333;
 }
 
+/* Estilos para o rodapé */
 footer {
     text-align: center;
 }
 
+/* Estilos para o elemento figure */
 figure {
     background-color: #f2eded;
     border: 1px solid #ccc;
     /* padding: 1px; */
 }
 
+/* Estilos para a primeira letra dos parágrafos */
 p:first-letter {
     font-weight: bold;
 }
 
+/* Estilos para o primeiro parágrafo após um h1 */
 h1 + p {
     text-indent: 0;
 }
 
+/* Estilos para a primeira linha dos parágrafos */
 p:first-line {
     font-variant: small-caps;
 }

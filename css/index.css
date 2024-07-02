@@ -1,5 +1,6 @@
+/* Estilos para o texto informativo sobre o carrinho de compras */
 .carrinho {
-    background: url(../img/icons8-carrinho-de-compras-50.png ) no-repeat top right;
+    background: url(../img/icons8-carrinho-de-compras-50.png) no-repeat top right;
     font-size: 14px;
     padding-right: 35px;
     text-align: right;
@@ -11,6 +12,7 @@
     background-size: contain;
 }
 
+/* Estilos para o menu de opções */
 .menu-opcoes {
     position: absolute;
     bottom: 0;
@@ -31,27 +33,32 @@
     margin-left: 20px;
 }
 
+/* Estilos gerais para o corpo do documento */
 body {
     color: #333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+/* Estilos para o container principal */
 .container {
     margin: 0 auto;
     width: 940px;
 }
 
+/* Estilos para o logo da empresa */
 .img_logo {
     height: 100px;
     width: 100px;
 }
 
+/* Estilos para o cabeçalho */
 header {
     position: relative;
     height: 20%;
     border: 2px solid;
 }
 
+/* Estilos para a seção de busca */
 .buscar,
 .menu-conteudo {
     background-color: #dcdcdc;
@@ -100,6 +107,7 @@ header {
     clear: left;
 }
 
+/* Estilos para os painéis */
 .painel li {
     display: inline-block;
     vertical-align: top;
@@ -114,14 +122,15 @@ header {
     width: 35%;
 }
 
+/* Estilos específicos para os painéis das aulas */
 .aula1 {
     float: left;
-    background-color: #f5dcdc;
+    background: linear-gradient(#f5dcdc, #bebef4);
 }
 
 .aula2 {
     float: right;
-    background-color: #dcdcf5;
+    background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
 .painel li {
@@ -132,14 +141,15 @@ header {
     padding-bottom: 10px;
 }
 
+/* Estilos para o título dos painéis */
 .painel h2 {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom:
-        10px;
+    margin-bottom: 10px;
 }
 
+/* Estilos para os links dentro dos painéis */
 .painel a {
     color: #333;
     font-size: 14px;
@@ -147,6 +157,7 @@ header {
     text-decoration: none;
 }
 
+/* Estilos para o rodapé */
 footer {
     background-color: #333;
     color: #fff;
@@ -155,15 +166,16 @@ footer {
     position: fixed;
     bottom: 6px;
     width: 100%;
-
 }
 
+/* Estilos para o container dentro do rodapé */
 footer .container {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
 }
 
+/* Estilos para os ícones das redes sociais no rodapé */
 footer ul.social {
     list-style: none;
     padding: 0;
@@ -183,24 +195,29 @@ footer ul.social li a:hover {
     text-decoration: underline;
 }
 
+/* Estilos para o texto de direitos autorais no rodapé */
 footer p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+/* Estilos para a imagem de destaque */
 #foto_destaque {
     width: 500px;
     height: 250px;
 }
 
+/* Estilos para links no menu de opções quando hover */
 .menu-opcoes a:hover {
     color: #007dc6;
 }
 
+/* Estilos para links no menu de opções quando ativo */
 .menu-opcoes a:active {
     color: #867dc6;
 }
 
+/* Estilos para listas secundárias no menu de conteúdo */
 .menu-conteudo li ul {
     display: none;
 }
@@ -217,38 +234,28 @@ footer p {
     content: '- ';
 }
 
+/* Exemplo de estilização de primeira linha de parágrafo */
 :not(p)+p:first-line {
     font-variant: small-caps;
 }
 
+/* Estilos adicionais para os painéis */
 .painel {
     border-radius: 4px;
     box-shadow: inset 1px 1px 4px #999;
-    
 }
 
 .painel h2 {
     text-shadow: 3px 3px 2px #FFF;
 }
 
+/* Estilos específicos para o botão de busca */
 .busca {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
 
-.painel h2 {
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
-}
-
-.aula1 {
-    background: linear-gradient(#f5dcdc, #bebef4);
-}
-
-.aula2 {
-    background: linear-gradient(#dcdcf5, #f4bebe);
-}
-
-
+/* Efeitos de hover para os itens nos painéis */
 .painel li:hover {
     box-shadow: 0 0 5px #333;
     transition: box-shadow 0.7s;
